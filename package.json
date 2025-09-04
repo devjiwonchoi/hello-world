@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start"
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start",
+    "bs": "pnpm build && pnpm start"
   },
   "dependencies": {
     "react": "^19",
