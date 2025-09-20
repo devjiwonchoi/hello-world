@@ -1,7 +1,9 @@
 {
   "scripts": {
     "dev": "next dev --turbopack --port 5656",
+    "dev-wp": "next dev --port 5656",
     "build": "next build --turbopack",
+    "build-wp": "next build",
     "start": "next start --port 5656"
   }
 }
